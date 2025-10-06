@@ -27,4 +27,5 @@ jobs:
           author-name: CozyBot[bot]
           github-app-id: 321901
           github-app-key: ${{ secrets.APP_PRIVATE_KEY }}
+          github-app-auth-only: 'true'
           repos-file: 'repos.md'
